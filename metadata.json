@@ -1,0 +1,6 @@
+{
+  "name": "Maison Aura",
+  "description": "Luxury Bengal boutique fashion e-commerce featuring artisanal Jamdani, Baluchari silk, Shantiniketan Kantha embroidery, and aristocratic Bonedi Bari couture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-bengali: "Noto Serif Bengali", "Anek Bangla", serif;
+  --color-warm-ivory: #FAF8F5;
+  --color-soft-beige: #F3EFEA;
+  --color-champagne: #DFCFBE;
+  --color-muted-taupe: #8E8279;
+  --color-charcoal: #1C1B1A;
+  --color-bengal-crimson: #982226;
+  --color-bengal-alta: #B82B32;
+  --color-tussar-gold: #C5A880;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #FAF8F5;
+    color: #1C1B1A;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, .font-serif {
+    font-family: "Cormorant Garamond", serif;
+  }
+  .font-bengali {
+    font-family: "Noto Serif Bengali", "Anek Bangla", serif;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #DFCFBE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E8279;
+}
+
